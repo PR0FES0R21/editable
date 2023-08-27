@@ -1,0 +1,31 @@
+body {
+    max-width: 576px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-100);
+    background-color: rgb(213, 212, 212);
+    user-select: none;
+}
+
+/* style for navbar */
+.navbar {
+    background-color: var(--accent-100);
+    box-shadow: #1E1E1E;
+}
+
+.navbar-cs > a {
+    color: #FFFFFF;
+}
+/* end style navbar */
+
+a {
+    text-decoration: none;
+}
+
+.navbar-brand img {
+    max-height: 30px;
+}
+
+.cs-icon {
+    color: #007bff;
+    }
